@@ -39,7 +39,4 @@ app.get("/",async(req,resp)=>{
 app.use('/user',userroutes);
 app.use('/blog',blogroutes);
 
-
-app.listen(PORT,()=>{
-    console.log(`http://localhost:${PORT}`);
-})
+modulu.exports = app
