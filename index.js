@@ -39,4 +39,4 @@ app.get("/",async(req,resp)=>{
 app.use('/user',userroutes);
 app.use('/blog',blogroutes);
 
-modulu.exports = app
+module.exports = app
