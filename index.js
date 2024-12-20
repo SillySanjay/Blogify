@@ -14,7 +14,7 @@ const PORT = 8000;
 
 //view engine
 app.set('view engine','ejs');
-app.set('views',path.resolve('./views'));
+app.set('views',path.resolve('views'));
 
 
 // DB connection
