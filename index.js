@@ -14,7 +14,7 @@ const PORT = 8000;
 
 //view engine
 app.set('view engine','ejs');
-app.set('views', path.resolve('./views'));
+app.set('viewss', path.resolve('./viewss'));
 
 // DB connection
 mongoose.connect('mongodb+srv://sillysanjay:7shanuu7@cluster0.8kun0.mongodb.net/Blogify')
