@@ -8,7 +8,7 @@ const router = Router();
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         // Save files to the /tmp directory on Vercel
-        cb(null, '/public/tmp');
+        cb(null, '/tmp');
     },
     filename: function (req, file, cb) {
         const filename = `${Date.now()}-${file.originalname}`;
